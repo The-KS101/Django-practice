@@ -1,0 +1,195 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+.nav{
+	background-color: #062F4F;
+	color: #85b5ad;
+	font-family: Trebuchet MS;
+
+
+}
+
+.nav p{
+
+	padding: 20px;
+	/*border: 2px solid red;*/
+	margin-top: 0px;
+	margin-left: 10px;
+	text-shadow: 2px 2px 1px #FF652F;
+	font-size: 30px;
+
+}
+
+.nav ul{
+	display: inline;
+	float: right;
+	/*border: 2px solid red;*/
+	position: relative;
+	top: -74px;
+	padding: 20px;
+	margin-top: -24px;
+	font-size: 20px;
+
+
+}
+
+.nav li{
+	display: inline;
+		/*border: 2px solid red;*/
+	padding: 30px 20px 10px 20px;
+	margin: 0px -10px 0px -10px;
+}
+
+.nav a:hover{
+	background-color: #FF652F;
+	color: #062F4F;
+	padding: 25px 5px 25px 5px;
+}
+
+#inuse{
+	border-bottom: 2px solid #85b5ad;
+	margin-right: 10px;
+	margin-left:10px ;
+}
+
+.nav a{
+	color: #85b5ad;
+	padding: 25px 0px 25px 0px;
+}
+
+.main{
+		/*border: 2px solid red;*/
+		margin-top: -30px;
+		min-height: 450px;
+		background-color: #8c9E9E;
+		color: #062F4F;
+
+}
+
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text{
+ width: 40%;
+ float: left;
+ margin: 100px 0px 20px 60px;
+ /*border: 2px solid red;*/
+ padding: 20px;
+ font-family: "Arial Black", Gadget, sans-serif;
+ text-transform: uppercase;
+
+}
+
+.notes{
+width: 30%;
+float: right;
+margin:-20px 50px 0px 10px;
+padding: 30px 30px 30px 30px;
+font-family: Comic Sans MS;
+	/*border: 2px solid red;*/
+ box-shadow: 3px 3px 3px #000000;
+ border-radius: 30px;
+ background-color: #062F4F;
+ color: #8c9E9E;
+}
+
+.images{
+
+
+	display: inline-block;
+	width: 100%;
+
+}
+
+.images img{
+
+	padding: 0px;
+	margin-left: -5px;
+	margin-top: -3px;
+}
+
+.main2{
+	
+	background-color: #011a38;
+	/*border: 2px solid red;*/
+	display: inline-flex;
+	width: 100%;
+	margin-top: -4px;
+	font-family: Verdana;
+	color: #82b5ad;
+
+}
+
+.main2:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.availability{
+width: 15%;
+padding: 30px;
+margin-left: 100px;
+/*border: 2px solid red;*/
+float: left;
+}
+
+.availability a{
+	color: #a1c5d1;
+}
+
+.connect{
+width: 20%;
+/*border: 2px solid red;*/
+padding: 30px;
+
+}
+
+.connect span{
+
+}
+
+.connect h2{
+
+}
+
+.connect img{
+	/*border: 2px solid red;*/
+	float: left;
+	text-align: center;
+	position: relative;
+	top: 2px;
+}
+
+.connect p{
+	margin-left: 30px;
+}
+
+.social img{
+	margin: 10px 15px 0px 15px;
+	box-shadow:  5px 5px 5px black;
+}
+
+footer{
+padding: 20px;
+background-color:#000000;
+color: #FF652F;
+font-family: Verdana;
+
+}
+
+footer p{
+	text-align: center;
+	margin-left: 50px;
+}

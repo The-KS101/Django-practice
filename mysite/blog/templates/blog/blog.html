@@ -1,0 +1,8 @@
+{% extends "personal/Sample/header.html" %}
+
+{% block content %}
+
+	{% for post in object_list %}
+		<h5 style="margin: 30px;">{{ post.date|date:"Y-m-d" }}<a href="/blog/{{post.id}}"> {{post.title}}</a></h5>
+	{% endfor %}
+{% endblock %}

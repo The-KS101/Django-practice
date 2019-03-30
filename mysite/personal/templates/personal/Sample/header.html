@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+	<title>KS Designs</title>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="/static/bootstrap.min.css">
+		<script type="text/javascript" src="/static/js/main.js"></script>
+		<style type="text/css">
+			html, body{
+				height: 100%;
+				padding: 0;
+				width: 97%;
+			}
+		</style>
+
+</head>
+<body class="body" style="background-color: #98dbc6; width: 99%; ">
+	<div class="row align-items-start container-fluid " style="width:104%; margin-left: 0px;">
+		<div class="row " style="width:104%;background-color:#003b46; padding: 20px 0px 0px 10px; border-bottom: 5px solid grey; margin-left: -15px;">
+			
+			<p class="col" style="color: #FFBB00; margin-left: 10px;">KS</p>
+			<ul class="col-7 list-unstyled ">
+				<div class ='row nounderline'>
+				<li class="col " ><a href="/" style="color: #FFBB00;">Home</a></li>
+				<li class="col" ><a href="/portfolio/" style="color: #FFBB00;">Portfolio</a></li>
+				<li class="col" ><a href="/contact/" style="color: #FFBB00;">Contact</a></li>
+				<li class="col" ><a href="/blog/" style="color: #FFBB00;">Blog</a></li>
+				<li class="col" ><a href="/about/" style="color: #FFBB00;">About</a></li>
+			</ul>
+				</div>
+		
+	<div>
+			{% block content %}
+			{% endblock %}
+		</div>
+</body>
+</html>

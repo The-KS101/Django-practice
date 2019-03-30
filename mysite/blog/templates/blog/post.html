@@ -1,0 +1,12 @@
+{% extends "personal/Sample/header.html" %}
+
+{% block content %}
+<div style="margin: 30px;">
+<h3>{{post.title}}</h3>
+<h6>on {{post.date}}</h6>
+<div style="margin: 40px">
+{{post.body|safe|linebreaks}}
+</div>
+</div>
+	
+{% endblock %}
